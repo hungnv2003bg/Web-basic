@@ -1,0 +1,173 @@
+*{padding: 0; margin: 0;box-sizing: border-box;}
+body {
+    font-family: tahoma;
+    font-size: 16px;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+
+.main .left{
+     width: 700px;
+     float: left;
+     min-height: 400px;
+}
+.main .right{
+    width: 300px;
+    float: left;
+    min-height: 400px;
+}
+.footer{
+    width: 1000px;
+    text-align: center;
+    height: 60px;
+    color: white;
+    clear: left;
+    line-height: 60px;
+}
+.footer p{
+    color: #3366FF;
+    font-size: 20px;
+}
+.nav-main{
+    height: 40px;
+    background: black;
+    font-size: 16px;
+}
+
+
+
+
+/* css menu */
+.nav-main ul li{
+    list-style: none;
+    float: left;
+    line-height: 40px;
+    padding: 0 20px;
+    position: relative;
+}
+.nav-main ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav-main ul li a:hover{
+    text-decoration: underline;
+    color: yellowgreen;
+}
+.nav-main ul li:hover{
+    background: #2d3246;
+}
+.sub-menu{
+    position: absolute;
+    display: none;
+    left: 0;
+}
+.nav-main ul li:hover .sub-menu{
+    display: block;
+}
+.sub-menu li{
+    width: 200px;
+    background: #87aaa5;
+}
+.banner img{
+    width: 980px;
+}
+
+
+
+
+
+.banner img{
+    width: 1000px;
+    
+}
+
+
+.main ul li:hover .sub-menu{
+    display: block;
+}
+.main .left ul{
+    margin: 0px;
+    padding: 0px;
+}
+.main .left ul li{
+    list-style: none;
+    clear: left;
+    border-bottom: 2px solid #ccc;
+    float: left;
+    margin-bottom: 20px
+
+}
+.main .left ul li img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 600px;
+    height: 400px;
+}
+.main .left ul li h2{
+    font-size: 18px;
+    margin-top: 0px;
+}
+.main .left ul li p{
+    font-size: 15;
+    text-decoration: line-through;
+}
+.main .left ul li h4{
+    margin-top: -2px;
+    color: red;
+    font-size: 16px;
+}
+.main{
+    margin-top: 20px;
+}
+.main .right .menu-right ul{
+    margin: -15px 0px 0px 0px;
+    padding: 0px;
+    border: 1px solid #ccc;
+}
+.main .right .menu-right ul li{
+    list-style: none;
+}
+.main .right .menu-right ul li a{
+    display: block;
+    text-decoration: none;
+    line-height: 45px;
+    border-bottom: 1px solid #ccc;
+    background: url(img/check\ \(2\).png) no-repeat 2px;
+    text-indent: 40px;
+    color: #848484;
+    font-size: 16px;
+    height: 40p;
+    margin-top: 5px;
+}
+.main .right .menu-right ul li a:hover{
+    color: green;
+}
+
+.main .right .menu-right h3{
+    background: #194d58 url(img/iconmenu\ \(1\).jpg) no-repeat 3px;
+    height: 40x;
+    margin-top: 0px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 40px;
+    color: white;
+    text-indent: 45px;
+    
+}
+.main .right .menu-right img{
+    width: 320px;
+    height: 300px;
+    margin-top: 10px;
+}
+.main .right .menu-right p{
+    margin: 10px auto;
+    color: blue;
+    font-size: 15px;
+}
+
+
+
+
+

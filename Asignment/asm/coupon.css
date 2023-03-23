@@ -1,0 +1,42 @@
+* {
+
+	margin: 0;
+	padding: 0;
+}
+
+.thongtin{
+    margin-top: 10px;
+    width: 1000px;
+    float: left;
+    border-radius: 5px;
+}
+.news-title {
+    display: block;
+    margin: 0px 0;
+    color: #000;
+    font-size: 16px;
+    padding-bottom: 0;
+    font-weight: bold;
+    max-height: 38px;
+    overflow: hidden;
+    width: 470px;
+}
+.div_descriptionpro {
+    width: 470px;
+    text-align: left;
+    display: inline-block;
+    background: #f7f7f7;
+    font-size: 13px;
+    padding-top: 1%;
+    height: 60px;
+    line-height: 22px;
+    border-bottom: 21px solid #f7f7f7;
+}
+.anh1 img{
+    width: 470px;
+}
+.box1{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
